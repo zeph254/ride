@@ -16,7 +16,11 @@ And you are all done
 
 # Live server
 
-You can view the web live on Portfolio
+You can view the web live on  https://zeph254.github.io/ride/
+
+# render
+ 
+ link https://ride-7dku.onrender.com
 
 # Known Bugs
 
