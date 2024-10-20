@@ -1,0 +1,43 @@
+nav{
+    background: linear-gradient(rgba(7, 1, 1, 0.993), rgba(6, 6, 238, 0.986));
+}
+a{
+    margin-left: 50px;
+    color: brown;
+}
+#fish{
+    background-image:url(Handsome-Jack-Master-Chief-and-Ezio.jpg);   
+}
+#love{
+    color: aliceblue;
+    
+}
+#charity{
+    color: aliceblue;
+  margin-left: 500px;  
+
+}
+#joy{
+    color: aliceblue;
+    text-align: end;
+    margin-right: 50px;
+}
+#joy h5{
+    font-weight: 900;
+}
+h3{
+    text-align: center;
+    padding: 50px;
+}
+.login-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  button {
+    display: block;
+  }
+  body{
+    background: linear-gradient(rgb(7, 1, 1), rgb(6, 6, 238), rgba(238, 52, 6, 0.896));
+  }
