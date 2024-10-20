@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", () => {
         description: document.getElementById('description').value,
         id: Math.random().toString(36).substr(2, 9) // Random ID
       };
-      fetch('http://localhost:3000/games', {
+      fetch('https://ride-7dku.onrender.com/games', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -67,7 +67,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // Delete a game (simulate DELETE request)
     window.deleteGame = (id) => {
       if (confirm('Are you sure you want to delete this game?')) {
-        fetch(`http://localhost:3000/games/${id}`, {
+        fetch(`https://ride-7dku.onrender.com/games/${id}`, {
             method: 'DELETE',
           })
           .then(response => response.json())
@@ -82,7 +82,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // Edit a game (simulate PUT request)
     window.editGame = (id) => {
       // Fetch the game by ID and populate the form (similar to adding post)
-      fetch(`http://localhost:3000/games/${id}`)
+      fetch(`https://ride-7dku.onrender.com/games/${id}`)
         .then(response => response.json())
         .then(game => {
           document.getElementById('gameName').value = game.gamename;
@@ -115,7 +115,7 @@ document.addEventListener("DOMContentLoaded", () => {
         description: document.getElementById('description').value,
       };
   
-      fetch(`http://localhost:3000/games/${id}`, {
+      fetch(`https://ride-7dku.onrender.com/games/${id}`, {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json',
