@@ -22,7 +22,13 @@ You can view the web live on  https://zeph254.github.io/ride/
  
  link https://ride-7dku.onrender.com
 
+# slide
+
+link https://docs.google.com/presentation/d/1YaYWtj60U2j6SHzcK6bV8po1T2vny5kf8eS5hQpMj9E/edit#slide=id.p
+
 # Known Bugs
+
+
 
 The application works perfectly well, no bugs.
 
